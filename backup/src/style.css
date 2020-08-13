@@ -1,0 +1,21 @@
+body {
+  margin: 0.5em;
+}
+.book {
+  width: 150px;
+  height: 200px;
+  display: inline-block;
+  border: 1px solid grey;
+  border-radius: 0.5em;
+  margin: 0.5em;
+  background-color: #87ceeb;
+  text-align: center;
+}
+button {
+  display: inline-block;
+}
+
+hr {
+  border: 5px solid brown;
+  border-radius: 2px;
+}

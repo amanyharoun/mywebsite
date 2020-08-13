@@ -1,0 +1,15 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+  
+</div>
+<div id="app">
+  <h1>{{ title }}</h1>
+  <p>Cart {{ Cart }}</p>
+
+
+<hr>
+<book v-for="book in books" :book="book" cart="cart" :sale-rate="marketSale"></book>
+
+<hr>
+
+         
+</div>
